@@ -27,7 +27,6 @@ table = []
 head = result["head"]["vars"]
 
 print("count of result:" + str(len(result["results"]["bindings"])))
-
 for item in result["results"]["bindings"]:
 
     _item = []
