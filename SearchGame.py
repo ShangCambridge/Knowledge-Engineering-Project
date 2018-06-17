@@ -49,7 +49,6 @@ for item in result["results"]["bindings"]:
     _item.append(description)
 
     table.append(_item)
-
 _table = pd.DataFrame(table, columns=(head[0], head[1], head[2], head[3], head[4],head[5]))
 # print(_table)
 #
