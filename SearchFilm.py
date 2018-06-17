@@ -36,9 +36,6 @@ for item in result["results"]["bindings"]:
     name = item["name"]["value"]
     _item.append(name)
 
-    # language = item["name"]["xml:lang"]
-    # _item.append(language)
-
     description = item["description"]["value"]
     _item.append(description)
 
